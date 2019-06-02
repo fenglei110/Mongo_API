@@ -19,8 +19,8 @@ Flask封装对MongoDB的增删改差
 
 ![m2](https://github.com/fenglei110/Mongo_API/blob/master/images/mongo2.png)
 
-具体rest api接口，对MongoDB的增删改查看下面：
+具体rest api接口，对MongoDB的增删改查请看文档：
 
-[API文档](images/demo_api.pdf)
+[Flask调用MongDB增删改查的API文档](images/demo_api.pdf)
 
 因为匆匆部署，没有添加详细使用文档，谅解。
