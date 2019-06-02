@@ -9,10 +9,14 @@ Flask封装对MongoDB的增删改差
 
 然而他走了，调用的接口我来写，这就真的很蓝首...
 
-具体mongoDB里就有这两个数据库
-**data 实体关系属性**
+具体mongoDB里存在这两个库：
+
+**存储`meta`的实体，实体属性，关系，关系属性**
+
 ![m1](https://github.com/fenglei110/Mongo_API/blob/master/images/mongo1.png)
-**meta 实体关系属性**
+
+**存储`data`的实体，关系，属性**
+
 ![m2](https://github.com/fenglei110/Mongo_API/blob/master/images/mongo2.png)
 
 具体rest api接口，对MongoDB的增删改查看下面：
