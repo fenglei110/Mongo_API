@@ -36,11 +36,9 @@ storageConf = StorageConf('mongodb://feng:123456@127.57.40.140:29017/test_meta',
 
 """连接mongo, url, db, table"""
 storage = MongoStorage(storageConf)
-"""用于和mongo交互, get"""
+# 实例化累加器
 accumulator = Accumulator(storage)
-"""accumulator  返回id，int"""
 tableConf = TableConf("entity", "link", "property", "entity_property", "link_property")
-"""连接table"""
 meta = MetaOperator(storage, accumulator, tableConf, None)
 
 cacheLoader = MongoMetaCacheLoader(meta)
@@ -56,7 +54,7 @@ dataAccumulator = Accumulator(dataStorage)
 dataTableConf = TableConf("entity", "link", "property", None, None)
 dataOrginOperator = DataOperator(dataStorage, dataAccumulator, metaCache, dataTableConf)
 
-dataRepStorageConf = StorageConf('mongodb://jmddev:jmddev@123.57.40.140:29017/test_fact', 'test_fact', 'test_fact')
+dataRepStorageConf = StorageConf('mongodb://feng:123456@127.57.40.140:29017/test_fact', 'test_fact', 'test_fact')
 dataRepStorage = MongoStorage(dataRepStorageConf)
 
 dataRepTableConf = TableConf("entity", "link", None, None, None)

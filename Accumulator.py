@@ -5,5 +5,5 @@ class Accumulator:
         self.storage = storage
 
     def GetId(self):
-        """返回id"""
+        """专门建一张表，只存储当前id用于记录递增"""
         return self.storage.gen_id('id_gener')
