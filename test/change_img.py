@@ -14,7 +14,8 @@ def change_img(img_file,  width=706, height=400):
 
 file4 = r'C:\Users\16529\Mygit\Mongo_API\images\mongo4.png'
 file5 = r'C:\Users\16529\Mygit\Mongo_API\images\mongo3.png'
+file6 = r'C:\Users\16529\Mygit\Mongo_API\images\mong7.png'
 
 if __name__ == '__main__':
-    change_img(file4)
+    change_img(file6, width=555, height=455)
 
