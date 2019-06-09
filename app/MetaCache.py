@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-from MetaObject import PropertyTypes
+from app.MetaObject import PropertyTypes
 
 
 class MetaCache:

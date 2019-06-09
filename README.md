@@ -9,6 +9,9 @@ Flask封装对MongoDB的增删改差
 
 然而他走了，调用的接口我来写，这就真的很蓝首...
 
+**代码大致流程如下**
+![M](https://github.com/fenglei110/Mongo_API/blob/master/images/mongo流程.png)
+
 具体mongoDB里存在这两个库：
 
 **存储`meta`的实体，实体属性，关系，关系属性**
@@ -19,7 +22,7 @@ Flask封装对MongoDB的增删改差
 
 ![m2](https://github.com/fenglei110/Mongo_API/blob/master/images/mongo2.png)
 
-**API web界面，虽然丑点**
+**API web界面，虽然丑点。具体前端界面代码没有上传，可以调用api**
 
 **为实体创建属性**
 

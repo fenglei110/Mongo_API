@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
-from AbstractStorage import AbstractStorage
-from MetaObject import EntityMeta, PropertyMeta, LinkMeta
+from app.AbstractStorage import AbstractStorage
+from app.MetaObject import EntityMeta, PropertyMeta, LinkMeta
 
 '''
 table:entity

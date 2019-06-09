@@ -4,7 +4,7 @@ import logging
 
 from pymongo import MongoClient, ReturnDocument
 
-from AbstractStorage import AbstractStorage
+from app.AbstractStorage import AbstractStorage
 
 
 class MongoStorage(AbstractStorage):

@@ -1,4 +1,4 @@
-from MetaObject import PropertyTypes
+from app.MetaObject import PropertyTypes
 
 
 class MongoOpBuilder:

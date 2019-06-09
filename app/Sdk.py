@@ -1,14 +1,13 @@
 #!/usr/bin/env python
 # -*-coding:utf-8 -*-
 
-
 import json
 
 import requests
 
-from DataObject import LinkData, EntityData
-from MetaCache import MetaCache
-from MetaObject import EntityMeta, LinkMeta, PropertyMeta
+from app.DataObject import LinkData, EntityData
+from app.MetaCache import MetaCache
+from app.MetaObject import EntityMeta, LinkMeta, PropertyMeta
 
 
 class KnowledgeReactorSdk:

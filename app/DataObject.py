@@ -1,6 +1,6 @@
 # coding=utf-8
-from Jsonizable import Jsonizable
-from Timestamp import Timestamp
+from app.Jsonizable import Jsonizable
+from app.Timestamp import Timestamp
 
 
 class EntityData(Jsonizable):

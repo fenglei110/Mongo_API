@@ -1,8 +1,7 @@
 # -*- coding: UTF-8 -*-
 
-from Seracher import Searcher
-from MongoFilterBuilder import MongoFilterBuilder
-from SearchFilter import *
+from app.Seracher import Searcher
+from app.MongoFilterBuilder import MongoFilterBuilder
 
 
 class MongoSearcher(Searcher):
@@ -16,13 +15,12 @@ class MongoSearcher(Searcher):
         return self.__search(self.entity_table, self.__build(filters, start, size))
 
     def SearchBothLinkById(self, id):
-
-        src_pip = []
+        src_pip = list()
         src_pip.append({"$match": {"src": id}})
         src_pip.append({
             "$lookup": {"from": self.entity_table, "localField": "dest", "foreignField": "id", "as": "dest_detail"}})
 
-        dest_pip = []
+        dest_pip = list()
         dest_pip.append({"$match": {"dest": id}})
         dest_pip.append({
             "$lookup": {"from": self.entity_table, "localField": "src", "foreignField": "id", "as": "src_detail"}})

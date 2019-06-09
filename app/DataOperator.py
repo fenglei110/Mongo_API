@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
-from DataObject import EntityData, LinkData, PropertyData
-from StatusCode import StatusCode
+from app.DataObject import EntityData, LinkData, PropertyData
+from app.StatusCode import StatusCode
 
 
 class DataOperator(object):

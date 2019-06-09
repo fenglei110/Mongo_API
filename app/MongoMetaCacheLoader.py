@@ -1,6 +1,6 @@
-from MetaCacheLoader import MetaCacheLoader
-from MetaCache import MetaCache
-from MetaObject import EntityMeta, PropertyMeta, LinkMeta
+from app.MetaCacheLoader import MetaCacheLoader
+from app.MetaCache import MetaCache
+from app.MetaObject import EntityMeta, PropertyMeta, LinkMeta
 
 
 class MongoMetaCacheLoader(MetaCacheLoader):
