@@ -10,7 +10,7 @@ Flask封装对MongoDB的增删改差
 然而他走了，调用的接口我来写，这就真的很蓝首...
 
 **代码大致流程如下**
-![M](https://github.com/fenglei110/Mongo_API/blob/master/images/mongo流程.png)
+![M](https://github.com/fenglei110/Mongo_API/blob/master/images/mong%E6%B5%81%E7%A8%8B.png)
 
 具体mongoDB里存在这两个库：
 
