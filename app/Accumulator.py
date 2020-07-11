@@ -1,4 +1,6 @@
 # coding=utf-8
+
+
 class Accumulator:
     """累加器"""
     def __init__(self, storage):

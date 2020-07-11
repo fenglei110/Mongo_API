@@ -16,7 +16,6 @@ class SearchFilter(object):
 
 class SearchFilters(object):
     def __init__(self):
-        #self.or_cond = []
         self.and_cond = []
 
     def add_and_filter(self, filter):

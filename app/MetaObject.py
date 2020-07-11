@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 # 针对mo_meta各个表的处理
-from Jsonizable import Jsonizable
+from app.Jsonizable import Jsonizable
 
 
 class MetaStatus:

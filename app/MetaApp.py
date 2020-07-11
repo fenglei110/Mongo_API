@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*-coding:utf-8 -*-
+# coding=utf-8
 
 import json
 import logging
@@ -9,20 +9,20 @@ from importlib import reload
 from bson import json_util
 from flask import Flask, request, abort
 
-from Accumulator import Accumulator
-from DataOperator import DataOperator
-from DataReplicaOperator import DataReplicaOperator
-from MetaOperator import MetaOperator
-from MongoMetaCacheLoader import MongoMetaCacheLoader
-from MongoSearcher import MongoSearcher
-from MongoStorage import MongoStorage
-from SearchFilter import SearchFilter, SearchFilters
-from StatusCode import StatusCode
-from StorageConf import StorageConf
-from TableConf import TableConf
+from app.Accumulator import Accumulator
+from app.DataOperator import DataOperator
+from app.DataReplicaOperator import DataReplicaOperator
+from app.MetaOperator import MetaOperator
+from app.MongoMetaCacheLoader import MongoMetaCacheLoader
+from app.MongoSearcher import MongoSearcher
+from app.MongoStorage import MongoStorage
+from app.SearchFilter import SearchFilter, SearchFilters
+from app.StatusCode import StatusCode
+from app.StorageConf import StorageConf
+from app.TableConf import TableConf
 
 reload(sys)
-sys.setdefaultencoding('utf-8')
+# sys.setdefaultencoding('utf-8')
 
 app = Flask(__name__)
 

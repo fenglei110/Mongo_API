@@ -1,8 +1,8 @@
 # -*- coding: UTF-8 -*-
-from DataOperator import DataOperator
-from DataObject import EntityData, LinkData, PropertyData
-from MetaObject import PropertyValueNumber
-from StatusCode import StatusCode
+from app.DataOperator import DataOperator
+from app.DataObject import EntityData, LinkData
+from app.MetaObject import PropertyValueNumber
+from app.StatusCode import StatusCode
 
 
 class DataReplicaOperator(DataOperator):
