@@ -3,11 +3,12 @@
 [![Coverage Status](http://img.shields.io/coveralls/flask-restful/flask-restful/master.svg)](https://coveralls.io/r/flask-restful/flask-restful)
 [![PyPI Version](http://img.shields.io/pypi/v/Flask-RESTful.svg)](https://pypi.python.org/pypi/Flask-RESTful)
 
-Flask封装对MongoDB的增删改差
+Flask对MongoDB的增删改查的封装
 
-公司前技术总监把MongDB利用成了关系数据库，严格按照三范式建库，怎么理解三范式呢，就是普通的解析数据全部转化成了实体关系，分为meta表和data表，我真的很膜拜。
+公司前技术总监把MongDB利用成了关系数据库，严格按照ER模型建库。怎么理解三范式呢，就是普通的数据全部转化成了实体关系，分为meta表和data表，我真的很膜拜。
 
-然而他走了，调用的接口我来写，这就真的很蓝首...
+然而他走了，接口我来写，这就真的很蓝首...
+
 
 具体mongoDB里存在这两个库：
 
@@ -23,4 +24,4 @@ Flask封装对MongoDB的增删改差
 
 [Flask调用MongDB增删改查的API文档](images/demo_api.pdf)
 
-因为匆匆部署，没有添加详细使用文档，谅解。
+因为匆匆部署，没有添加详细使用文档。
